@@ -41,9 +41,10 @@ $$
 ## Step 2: Constraints
 
 ### (i) Availability
-\[
+
+$$
 X_1 \leq 8, \quad X_2 \leq 10
-\]
+$$
 
 ## (ii) Inspection Requirement
 
