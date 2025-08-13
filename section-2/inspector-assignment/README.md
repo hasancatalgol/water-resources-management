@@ -3,8 +3,6 @@
 A company has two grades of inspectors, **Grade 1** and **Grade 2**, who are to be assigned for a quality control inspection.  
 It is required that at least **1800 pieces** be inspected per **8-hour day**.
 
----
-
 ## Inspector Details
 
 **Grade 1 inspectors**  
@@ -31,14 +29,12 @@ Goal: **Minimize total daily inspection cost**.
 ---
 
 ## Step 1: Decision Variables
-
-\[
+$$
 X_1 = \text{Number of Grade 1 inspectors assigned}
-\]
-\[
+$$
+$$
 X_2 = \text{Number of Grade 2 inspectors assigned}
-\]
-
+$$
 ---
 
 ## Step 2: Constraints
@@ -110,22 +106,19 @@ $$
 Z = 40 X_1 + 36 X_2
 $$
 
-
 ---
 
 ## Final Linear Programming Model
 
-\[
-\text{Minimize} \quad Z = 40X_1 + 36X_2
-\]
-\[
-\text{Subject to:}
-\]
-\[
+$$
+\text{Minimize} \quad Z = 40 X_1 + 36 X_2
+$$
+Subject to:
+$$
 \begin{cases}
 X_1 \leq 8 \\
 X_2 \leq 10 \\
-200X_1 + 120X_2 \geq 1800 \\
+200 X_1 + 120 X_2 \geq 1800 \\
 X_1, X_2 \geq 0
 \end{cases}
-\]
+$$
