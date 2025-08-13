@@ -35,6 +35,7 @@ $$
 $$
 X_2 = \text{Number of Grade 2 inspectors assigned}
 $$
+
 ---
 
 ## Step 2: Constraints
