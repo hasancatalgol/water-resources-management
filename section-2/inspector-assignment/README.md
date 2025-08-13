@@ -94,16 +94,19 @@ $$
 **Daily cost per inspector:**
 
 Grade 1:
+
 $$
 8 \times 5 = 40 \ \text{USD}
 $$
 
 Grade 2:
+
 $$
 8 \times 4.5 = 36 \ \text{USD}
 $$
 
 **Minimize:**
+
 $$
 Z = 40 X_1 + 36 X_2
 $$
